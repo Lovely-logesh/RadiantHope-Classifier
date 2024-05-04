@@ -15,7 +15,7 @@ import streamlit as st
 from PIL import Image
 
 #add photo or logo in website
-img = Image.open('/content/girl.jpg')
+img = Image.open('girl.jpg')
 
 #tabs row title
 st.set_page_config(page_title='BT CLASSIFIER')
@@ -294,6 +294,6 @@ bullet_points = [
 
 st.write(bullet_points)
 
-video_file = open('/content/Five_Ways_to_Reduce_your_Risk_for_Breast_Cancer(1080p).mp4','rb')
+video_file = open('Five_Ways_to_Reduce_your_Risk_for_Breast_Cancer(1080p).mp4','rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
