@@ -52,7 +52,7 @@ import numpy as np
 import pandas as pd
 #import matplotlib.pyplot as plt
 #import sklearn.datasets
-from google.colab import files
+#from google.colab import files
 from sklearn.model_selection import train_test_split
 
 # loading the data from sklearn
