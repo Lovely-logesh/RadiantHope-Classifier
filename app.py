@@ -69,22 +69,19 @@ else:
     if st.button('Create My Account'):
         user = auth.create_user(email = email, password = password, uid = username)
         st.success('Account Created Sucessfully')    
-        st.markdown('Please Login Using Your Email and Password')
-        
+        st.markdown('Please Login Using Your Email and Password')     
 # IMPORTING DEPENDENCIES
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import sklearn.datasets
 from sklearn.datasets import load_breast_cancer
+
 #from google.colab import files
 from sklearn.model_selection import train_test_split
 
 # loading the data from sklearn
 breast_cancer_dataset = load_breast_cancer()
-
-
 print(breast_cancer_dataset)
 
 # loading the data to a dataframe
