@@ -48,32 +48,20 @@ st.markdown(
 )
 
 #Creating a  login page
-import bcrypt
+def app():
 
-# Hardcoded username and password for demo purposes
-hardcoded_username = "user"
-hashed_password = bcrypt.hashpw("password".encode('utf-8'), bcrypt.gensalt())
+    st.title(' Welcome to :violet[RadiantHope Classifier]')
 
-def main():
-    st.title("Login Page")
-
-    username = st.text_input("Username")
-    password = st.text_input("Password", type="password")
-
-    if st.button("Login"):
-        if username == hardcoded_username:
-            if bcrypt.checkpw(password.encode('utf-8'), hashed_password):
-                st.success("Logged In")
-                # Add session management or redirect to another page
-            else:
-                st.warning("Incorrect Password")
-        else:
-            st.warning("Username not found")
-
-if __name__ == '__main__':
-    main()
-
-
+    choice = st.selectbox('Login/Signup', ['Login','Signup'])
+    if choice =='Login':
+        email = st.text_input('Email Address')
+        password = st.text_input('Password', type='password')
+        st.button('Login')
+    else:
+        email = st.text_input('Email Address')
+        password = st.text_input('Password', type='password')
+        username = st.text_input('Enter Your Elegant User Name')
+        st.button('Sign Up')
 
 # IMPORTING DEPENDENCIES
 
