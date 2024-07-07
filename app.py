@@ -48,20 +48,17 @@ st.markdown(
 )
 
 #Creating a  login page
-def app():
-
-    st.title(' Welcome to :violet[RadiantHope Classifier]')
-
-    choice = st.selectbox('Login/Signup', ['Login','Signup'])
-    if choice =='Login':
-        email = st.text_input('Email Address')
-        password = st.text_input('Password', type='password')
-        st.button('Login')
-    else:
-        email = st.text_input('Email Address')
-        password = st.text_input('Password', type='password')
-        username = st.text_input('Enter Your Elegant User Name')
-        st.button('Sign Up')
+st.title(' Welcome to :violet[RadiantHope Classifier]')
+choice = st.selectbox('Login/Signup', ['Login','Signup'])
+if choice =='Login':
+    email = st.text_input('Email Address')
+    password = st.text_input('Password', type='password') 
+    st.button('Login')
+else:
+    email = st.text_input('Email Address')
+    password = st.text_input('Password', type='password')
+    username = st.text_input('Enter Your Elegant User Name')
+    st.button('Sign Up')
 
 # IMPORTING DEPENDENCIES
 
