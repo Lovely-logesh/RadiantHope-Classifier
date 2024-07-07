@@ -58,7 +58,7 @@ else:
     email = st.text_input('Email Address')
     password = st.text_input('Password', type='password')
     username = st.text_input('Enter Your Elegant User Name')
-    st.button('Sign Up')
+    st.button('Create My Account')
 
 # IMPORTING DEPENDENCIES
 
