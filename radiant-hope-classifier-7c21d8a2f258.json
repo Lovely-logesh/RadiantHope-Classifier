@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "radiant-hope-classifier",
+  "private_key_id": "7c21d8a2f258523fe5a73fbcf848e7e92fe093b8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDyE4y86urypE50\n3SdikzUz8xWfveH/2TZivuXtnoLCgaC8dCVdXqu3YIpyA2tBxhJHJQeaJmLNsaCO\nFGHfAitxCHH2k+MsnaISU3oGuerJuLkwU81EqLfOr9IEbWlGgOxXTJDprFcF7/o5\nxdrp5csw4SVynAjP9MYyLvjQq5df+FY8Yp3aS/MwY0Yv748atUar2QA0F0Lh3Yx5\nX7613+rVLfrT8ceTSGeublvKCWFPey9M+VIkCBSEWq/bsjHhbNN1oClRLLL/gHaV\nixwNSyhrcIA0Dc0x51CfDS3bkYRT1Lkl0Wyf4arLSyATq4x03ob9kMEDwa6nfOa6\nUwWlkgApAgMBAAECggEACFjPuMDh5olvUhzBC6dXRYoLdBVcSlHfS/LYo0Ocrx/A\nntbjZe+KfLl1tJ41D9DIVw8qDrDlpcGK73M497NPs6dOpKmvQt3RlY+uzLYS6C84\nJXgyQvyNT/FkjLYIFAAEhjMT6RbB7mi6qEzP8lIz2iTdQXErZZ5DSj4v4qQUBWFN\nzwl3atu5tZv8CXcL3OtCQQ+kfX6/ljbDXdPZdbOo+EJ5m+jq3YuAgJf4331OAaH3\nOnwwheBoGx/+34Pw8kOncUbFtJpfIJM28IG1ds9oIM7vjUuJApBu7O/sOGYXbUI5\nJlUvCCqpbVlI2gZLq+DhA1lYH9hkDAoguAs+tNeWAQKBgQD5BOix8qw2fd3mmTWX\n0NhYsy9jHL5JscfroiB/a0WNJ+3pgzrMs+7q/Drjk69UuNb8vdQYAFUbijxUXmFV\nKGyRqKVzOqMmcWgwZQOI7v/WuA8XTIkj9Ah05z550uqXx3eebPtaxwHhjCsoWp4k\ngLYVcMshnP2lDbh1LvLCvdH3KQKBgQD43NDKFIaqKlQFOErZ3b7GkWKMc2T49yzC\nDUnrmE3guv4XySK9wio2ecl+VYrKk954k3Wo7TASUkXIC6AN1mp35y5QxF4FUyzc\nx4Ywsr4y8oCbmjfnK4ZE5CXqksUifWSQOPRGp+JLzvmnbJEqMVPCfvBVtxWdwmrj\nqVgwiv3hAQKBgQDr8NHFYQf4rXNlfT7BNHj4OfapMt+9FXw176xY7ju9DdsmyFcb\nA1VZQllNrW2PmX7hg78EarQ43tZgnfgc5qtPq3nv3twcnZE5YUxjHwg62rQ5wCOk\ndCDbGwsgBE6QNsdIzTuu/CX1HYj6uDlknqtnTzK4C3ZsP77JEQ2kpJPfWQKBgE/X\neFz9DN9XSTGLh+gyDlzik/1/oCuIEaIIZWjiqkmpdI/pBe5fdu+XTx/rDeZEXqHM\nnXke78dRAfZWVHlcCziAwQlElu2aa9BBazoAfqkVyFEjvz+5ZRCBKfECOaEBHdxv\niV+JyT6NHueqG0CwJrFFzJGTdanxkB2OXS7lyOIBAoGBAJVB1BkeQ3fL66G2u5Jo\nbPTBWdr8zaAvyHeJtBueh2J38Ir/6eb9ltu2j5zui90Go9yEDlRNglD1ONPZhIFP\ndmTM9Eqt4ki+SzDwaTSlrP3j4jAbrk2yElzhwvxqUAS/5cIT1yovWPtK+CwgZ1fc\n6qkF0V3eJaHdo2Dosl7lFp2T\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-nd3ps@radiant-hope-classifier.iam.gserviceaccount.com",
+  "client_id": "100678413967264625009",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-nd3ps%40radiant-hope-classifier.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+
