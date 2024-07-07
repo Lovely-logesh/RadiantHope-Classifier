@@ -51,12 +51,12 @@ st.markdown(
 import numpy as np
 import pandas as pd
 #import matplotlib.pyplot as plt
-#import sklearn.datasets
+import sklearn.datasets
 #from google.colab import files
 from sklearn.model_selection import train_test_split
 
 # loading the data from sklearn
-breast_cancer_dataset = st.file_uploader("data.csv", type="csv")
+breast_cancer_dataset = load_breast_cancer()
 
 
 print(breast_cancer_dataset)
