@@ -52,7 +52,8 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import auth
 
-cred = credentials.Certificate('')
+cred = credentials.Certificate('radiant-hope-classifier-7c21d8a2f258.json')
+firebase_admin.initialize_app(cred)
 
 #Creating a  login page
 st.title(' Welcome to :violet[RadiantHope Classifier]')
@@ -65,7 +66,12 @@ else:
     email = st.text_input('Email Address')
     password = st.text_input('Password', type='password')
     username = st.text_input('Enter Your Elegant User Name')
-    st.button('Create My Account')
+    if st.button('Create My Account'):
+        user = auth.create_user(email = email, password = password, uid = username)
+        st.success('Account Created Sucessfully')    
+        st.markdown('Please Login Using Your Email and Password')
+        st.balloons('')
+
 
 # IMPORTING DEPENDENCIES
 
