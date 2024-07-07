@@ -47,6 +47,13 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+#Importing Firebase
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import auth
+
+cred = credentials.Certificate('')
+
 #Creating a  login page
 st.title(' Welcome to :violet[RadiantHope Classifier]')
 choice = st.selectbox('Login/Signup', ['Login','Signup'])
