@@ -11,6 +11,34 @@ Original file is located at
 
 #importing streamlit
 import streamlit as st
+
+import bcrypt
+
+# Hardcoded username and password for demo purposes
+hardcoded_username = "user"
+hashed_password = bcrypt.hashpw("password".encode('utf-8'), bcrypt.gensalt())
+
+def main():
+    st.title("Login Page")
+
+    username = st.text_input("Username")
+    password = st.text_input("Password", type="password")
+
+    if st.button("Login"):
+        if username == hardcoded_username:
+            if bcrypt.checkpw(password.encode('utf-8'), hashed_password):
+                st.success("Logged In")
+                # Add session management or redirect to another page
+            else:
+                st.warning("Incorrect Password")
+        else:
+            st.warning("Username not found")
+
+if __name__ == '__main__':
+    main()
+
+
+
 #image or logo
 from PIL import Image
 
