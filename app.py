@@ -70,7 +70,7 @@ else:
         user = auth.create_user(email = email, password = password, uid = username)
         st.success('Account Created Sucessfully')    
         st.markdown('Please Login Using Your Email and Password')
-        st.balloons('')
+        st.balloons()
 
 
 # IMPORTING DEPENDENCIES
