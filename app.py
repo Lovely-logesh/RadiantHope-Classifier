@@ -53,6 +53,7 @@ with col1:
   st.error('_WOMEN CARE_')#second title
   st.info('Cure Sometimes, Treat Often, Comfort Always')#for paragraph
 with col2:
+  st.title(' Welcome to :violet[RadiantHope Classifier]')
   st.image(img)#for image
 
 #Creating button and insert dataset in it
