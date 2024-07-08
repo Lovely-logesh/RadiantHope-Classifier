@@ -20,56 +20,8 @@ img = Image.open('girl.jpg')
 
 #tabs row title
 st.set_page_config(page_title='BT CLASSIFIER')
-
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #ff007f;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-
-# Add border with bold dark pink color
-st.markdown(
-    """
-    <style>
-    body {
-        border: 4px solid #FF1493; /* Dark pink color */
-        border-radius: 10px;
-        padding: 20px;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-#Importing Firebase
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import auth
-
-cred = credentials.Certificate('radiant-hope-classifier-7c21d8a2f258.json')
-app = firebase_admin.initialize_app(cred)
-
-#Creating a  login page
 st.title(' Welcome to :violet[RadiantHope Classifier]')
-choice = st.selectbox('Login/Signup', ['Login','Signup'])
-if choice =='Login':
-    email = st.text_input('Email Address')
-    password = st.text_input('Password', type='password') 
-    st.button('Login')
-else:
-    email = st.text_input('Email Address')
-    password = st.text_input('Password', type='password')
-    username = st.text_input('Enter Your Elegant User Name')
-    if st.button('Create My Account'):
-        user = auth.create_user(email = email, password = password, uid = username)
-        st.success('Account Created Sucessfully')    
-        st.markdown('Please Login Using Your Email and Password')     
+    
 # IMPORTING DEPENDENCIES
 import numpy as np
 import pandas as pd
