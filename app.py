@@ -19,8 +19,8 @@ from PIL import Image
 img = Image.open('girl.jpg')
 
 #tabs row title
-st.set_page_config(page_title='BT CLASSIFIER')
-st.title(' Welcome to :violet[RadiantHope Classifier]')
+st.set_page_config(page_title='RH CLASSIFIER')
+st.title(' Welcome to :violet[RadiantHope Classifier]❤️ ')
     
 # IMPORTING DEPENDENCIES
 import numpy as np
@@ -53,7 +53,6 @@ with col1:
   st.error('_WOMEN CARE_')#second title
   st.info('Cure Sometimes, Treat Often, Comfort Always')#for paragraph
 with col2:
-  st.title(' Welcome to :violet[RadiantHope Classifier]')
   st.image(img)#for image
 
 #Creating button and insert dataset in it
