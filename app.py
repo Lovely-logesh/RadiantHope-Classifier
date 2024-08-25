@@ -8,7 +8,7 @@ from PIL import Image
 img = Image.open('girl.jpg')
 #tabs row title
 st.set_page_config(page_title='RH CLASSIFIER')
-st.title(' Welcome to :violet[RadiantHope Classifier]❤️ ')
+st.title(' Welcome to : [RadiantHope Classifier]❤️ ')
 # IMPORTING DEPENDENCIES
 import numpy as np
 import pandas as pd
